@@ -1,0 +1,224 @@
+
+@font-face {
+	font-family: 'GothamPro';
+	src: url('../fonts/GothamPro.eot?') format('eot'), 
+	     url('../fonts/GothamPro.otf')  format('opentype'),
+	     url('../fonts/GothamPro.woff') format('woff'), 
+	     url('../fonts/GothamPro.ttf')  format('truetype'),
+	     url('../fonts/GothamPro.svg#GothamPro') format('svg');
+}
+
+/* спецификация */
+
+body {
+	font-family: 'GothamPro';
+	font-weight: 400;
+	font-size: 18px;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.title {
+	padding-top: 118px;
+	text-align: center;
+}
+.title__main {
+	font-style: 36px;
+	margin-bottom: 62px;
+}
+.title__text {
+	font-style: 18px;
+	
+}
+/*первый экран*/
+
+.header {
+	margin: 0 70px;
+}
+.navbar {
+	padding-bottom: 36px;
+}
+.nav-item {
+	padding-right: 45px;
+	color: #333333;
+}
+.img__tell {
+	padding-right: 38px;
+}
+.home-page {
+	width: 100%;
+	height: 671px;
+	background-image: url('../img/home.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.home-page h2 {
+	margin: 155px 0 218px;
+	color: #ffffff;
+	background-clip: text;
+	font-size: 48px;
+	font-weight: 400;
+	margin-left: 70px;
+}
+.home-page h2 span {
+	color: #f8f9f9;
+	font-weight: 700;
+}
+.main-btn {
+	width: 407px;
+	height: 72px;
+	border-radius: 20px;
+	background-color: #99cc99;
+	background-image: linear-gradient(to right, #99cccc 0%, #99cccc 15%, #99cc99 85%, #99cc99 100%);
+	border: none;
+	margin-left: 70px;
+}
+.main-btn span {
+	width: 260px;
+	height: 22px;
+	color: #ffffff;
+	font-family: "GothamPro";
+	font-size: 24px;
+	font-weight: 500;
+}
+
+/*Второй экран*/
+
+.title__roll {
+	color: #666666;
+	text-decoration: underline;
+}
+.advantages {
+	text-align: center;
+	padding-top: 78px;
+}
+.advantages__title {
+	margin-bottom: 75px;
+}
+.advantages__slaider {
+	margin: 0 auto;
+}
+.slaid {
+	text-align: center;
+}
+.slaid__img {
+	width: 122px;
+	height: 122px;
+	margin: 0 auto;
+}
+.slaid__title {
+	font-size: 24px;
+	font-weight: 500;
+	margin-top: 49px;
+	margin-bottom: 32px;
+}
+.slaid__text {
+	font-size: 18px;
+	font-weight: 400;
+}
+/*Экран формы*/
+.form {
+	height: 512px;
+	background-image: linear-gradient(to right, #99cccc 0%, #99cccc 15%, #99cc99 85%, #99cc99 100%);
+	opacity: 0.9;
+	margin-top: 80px;
+}
+.form__title {
+	margin: 110px 87px 0 87px;
+	font-size: 36px;
+	font-weight: 400;
+	color: #ffffff;
+}
+form {
+	margin: 45px 87px 0 87px;
+}
+label {
+	color: #ffffff;
+	font-size: 18px;
+}
+input {
+	height: 71px !important;
+	background: none !important;
+	border: 3px solid #ffffff !important;
+}
+.btn__form {
+	width: 252px;
+	height: 71px;
+	border-radius: 20px;
+	background-color: #ffffff;
+	color: #97cab2;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+/*Третий экран*/
+.services {
+	margin-bottom: 100px;
+}
+.services__title {
+	color: #333333;
+	font-size: 36px;
+	font-weight: 400;
+	margin-top: 117px;
+	text-align: center;
+}
+.services__img {
+	width: 98px;
+	height: 98px;
+	margin: 0 auto;
+}
+.card__title {
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 44px;
+}
+.services__text {
+	font-size: 18px;
+	font-weight: 400;
+	color: #333333;
+	text-align: center;
+	margin-top: 20px;
+}
+.services__block {
+	margin-top: 78px;
+}
+
+/*Footer*/
+.footer {
+	height: 390px;
+	background-image: linear-gradient(to right, #99cccc 0%, #99cccc 15%, #99cc99 85%, #99cc99 100%);
+}
+.footer__title {
+	font-size: 36px;
+	font-weight: 400;
+	color: #ffffff;
+	margin-top: 112px;
+	margin-bottom: 53px;
+	
+}
+.footer__img {
+	height: 30px;
+	color: white;
+}
+.icon__title {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 500;
+}
+.icon__text {
+	font-size: 18px;
+	font-weight: 400;
+	color: #ffffff;
+}
+.footer__content {
+	margin-top: 16px;
+	margin-left: 18px;
+}
+.footer__block {
+	margin-left: 157px;
+}
