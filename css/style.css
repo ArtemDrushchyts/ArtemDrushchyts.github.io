@@ -285,4 +285,20 @@ input {
 	.home-page {
 		background-position: 100% 0%;
 	}
+	.form__title {
+		font-size: 35px;
+	}
+}
+
+@media screen and (max-width: 993px) {
+	.home-page h2 {
+		font-size: 28px;
+		margin: 93% 0 77px 88px
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.home-page h2 {
+		font-size: 28px;
+	}
 }
