@@ -23,12 +23,12 @@ ul, li {
 }
 
 .title__main {
-	font-style: 36px;
+	font-size: 36px;
 	margin-bottom: 62px;
 }
 
 .title__text {
-	font-style: 18px;
+	font-size: 18px;
 }
 
 /*первый экран*/
@@ -345,4 +345,122 @@ input {
 	.services__title {
 		margin-top: 72px;
 	}
+	form {
+		margin: 45px 87px 30px 87px;
+	}
+	.footer__title {
+		font-size: 27px;
+	}
+	.footer__img {
+		height: 22px;
+	}
+	.icon__title {
+		font-size: 15px;
+	}
+	.icon__text {
+		font-size: 12px;
+	}
+	.footer {
+		height: 319px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.brand-img {
+		width: 77px;
+		height: 33px;
+	}
+	.navbar-text {
+		font-size: 12px;
+		order: 1;
+		margin-right: 15px;
+	}
+	.phone {
+		height: 27px;
+		width: 27px;
+	}
+	.img__tell {
+		align-self: center;
+		order: 2;
+		padding: 0;
+	}
+	.header {
+		margin: 0;
+	}
+	.home-page h2 {
+		font-size: 22px;
+		width: 245px;
+		margin: 88% auto 26px;
+	}
+	.title__main {
+		font-size: 23px;
+		margin-bottom: 32px;
+	}
+	.title {
+		padding-top: 66px;
+	}
+	.title__text {
+		font-size: 13px;
+	}
+	.advantages__title {
+		font-size: 23px;
+		margin-bottom: 32px;
+	}
+	.advantages {
+		padding-top: 51px;
+	}
+	.slaid__title {
+		font-size: 17px;
+		margin-top: 40px;
+	}
+	.slaid__img {
+		width: 100px;
+		height: 100px;
+	}
+	.form {
+		margin-top: 30px;
+	}
+	.form-group {
+		justify-content: center;
+	}
+	.btn__form {
+		align-items: center;
+	}
+	.problem {
+		height: 74px !important;
+	}
+	.services__title {
+		font-size: 22px;
+	}
+	.services__img {
+		width: 91px;
+		height: 91px;
+	}
+	.card__title {
+		font-size: 15px;
+		margin-top: 22px;
+	}
+	.footer__block {
+		margin: 0;
+	}
+	.footer__title {
+		margin-left: 36px;
+	}
+	.footer {
+		height: 100%;
+	}
+	.footer__icon {
+		margin-left: 70px;
+	}
+	.footer__content {
+		margin-top: 8px;
+	}
+	.icon__title {
+		font-size: 14px;
+	}
+	.icon__text {
+		font-size: 14px;
+	}
+}
+
 }
