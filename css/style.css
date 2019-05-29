@@ -69,7 +69,7 @@ ul, li {
 }
 
 .home-page h2 span {
-	color: #f8f9f9;
+	color: #ffffff;
 	font-weight: 700;
 }
 
@@ -295,10 +295,54 @@ input {
 		font-size: 28px;
 		margin: 93% 0 77px 88px
 	}
+	input {
+		height: 42px !important;
+		border-radius: none;
+	}
+	.btn__form {
+		height: 42px;
+		font-size: 21px;
+	}
+	.footer__block {
+		margin-left: 50px;
+	}
+	.footer__title {
+		margin-top: 80px;
+	}
 }
 
 @media screen and (max-width: 768px) {
 	.home-page h2 {
 		font-size: 28px;
+		margin: 98% 0 82px 88px;
+	}
+	.main-btn {
+		width: 352px;
+	}
+	.main-btn span {
+		font-size: 23px;
+	}
+	.services__img {
+		width: 78px;
+		height: 78px;
+	}
+	.card__title {
+		font-size: 16px;
+		margin-top: 36px;
+	}
+	.services__block {
+		margin-top: 50px;
+	}
+	.form__title {
+		font-size: 31px;
+	}
+	.form__title {
+		margin: 45px 87px 0 87px;
+	}
+	.form {
+		height: 100%;
+	}
+	.services__title {
+		margin-top: 72px;
 	}
 }
