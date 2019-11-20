@@ -463,4 +463,13 @@ input {
 	}
 }
 
+@media screen and (max-width: 516px) {
+	.main-btn {
+		margin-left: 0;
+		width: 200px;
+		height: 36px;
+	}
+	.main-btn span {
+		font-size: 15px;
+	}
 }
