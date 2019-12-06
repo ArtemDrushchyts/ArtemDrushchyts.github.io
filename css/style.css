@@ -579,7 +579,7 @@ input {
 		height: 100%;
 	}
 	.footer__icon {
-		margin-left: 70px;
+		margin-left: 35px;
 	}
 	.footer__content {
 		margin-top: 8px;
@@ -631,6 +631,9 @@ input {
 	}
 	.wrap-services {
 		width: 55%;
+	}
+	.footer__block {
+		margin-left: 0;
 	}
 
 }
