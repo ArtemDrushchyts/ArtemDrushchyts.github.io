@@ -198,6 +198,7 @@ input {
 	-webkit-perspective: 0;
 	-webkit-backface-visibility: hidden;
 	-webkit-transform: translate3d(0,0,0);
+	-webkit-transform-style: preserve-3d;
 }
 .back {
 	transform: rotateY(180deg);
