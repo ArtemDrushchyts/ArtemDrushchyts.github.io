@@ -195,6 +195,9 @@ input {
 	top: 0;
 	transition: 1s;
 	backface-visibility: hidden;
+	-webkit-perspective: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translate3d(0,0,0);
 }
 .back {
 	transform: rotateY(180deg);
