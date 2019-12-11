@@ -729,3 +729,20 @@ input {
 	}
 
 }
+
+@media (max-width: 767.99999999px) {
+	.contacts-map > a {
+		background-position: center;
+		background-repeat: no-repeat;
+		display: block;
+		height: 100%;
+		width: 100%;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+.contacts-map {
+	overflow: hidden;
+}
