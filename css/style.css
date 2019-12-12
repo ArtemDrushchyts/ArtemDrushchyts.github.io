@@ -300,6 +300,7 @@ input {
 	opacity .5s, visibility .5s;
 	opacity: 0;
 	visibility: hidden;
+	border: none;
 	z-index: 1000;
 	background: url('../img/icon_top.png') no-repeat;
 }
